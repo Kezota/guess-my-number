@@ -12,7 +12,7 @@ export default function App() {
   const [backgroundColor, setBackgroundColor] = useState("#222");
 
   useEffect(function () {
-    document.title("Guess My Number");
+    document.title = "Guess My Number";
   }, []);
 
   function handleCheckGuess(number) {
