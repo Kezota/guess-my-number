@@ -16,7 +16,6 @@ export default function App() {
   }, []);
 
   function handleCheckGuess(number) {
-    console.log(secretNumber);
     if (number === secretNumber) {
       setShowSecretNum(secretNumber);
       setMessage("🎉 Correct number!");
@@ -24,7 +23,11 @@ export default function App() {
 
       if (highScore < score) setHighScore(score);
     } else {
-      if (number < secretNumber) setMessage("📉 Too low!");
+      if (score === 1) {
+        setShowSecretNum(secretNumber);
+        setMessage("💥 You lost the game!");
+        setBackgroundColor("#ff0000");
+      } else if (number < secretNumber) setMessage("📉 Too low!");
       else setMessage("📈 Too high!");
 
       setScore(score - 1);
