@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Guess My Number Game 🎮
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Guess My Number** game! This is a simple web-based game where you try to guess a randomly generated number within a certain range. It's built using [React JS](https://create-react-app.dev/) and hosted on Vercel.
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+Check out the live version of the game:
+[https://guess-my-number-kez.vercel.app/](https://guess-my-number-kez.vercel.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive UI**: Easy-to-use interface with real-time feedback on your guesses.
+- **Random Number Generation**: Every game starts with a new randomly generated number.
+- **Simple and Fun**: A straightforward game designed for quick play sessions.
 
-### `npm test`
+## 💻 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React.js, CSS
+- **Hosting**: Vercel
+- **Tooling**: Create React App
 
-### `npm run build`
+## 🎯 How to Play
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Visit the [live demo](https://guess-my-number-kez.vercel.app/).
+2. Enter your guess in the input field.
+3. Click the "Check" button to see if your guess is correct.
+4. The game will tell you if your guess is too high, too low, or correct.
+5. Keep guessing until you find the right number!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot of the game](public/screenshot.png)
 
-### `npm run eject`
+## 🔧 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you want to run this project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kezota/guess-my-number.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd guess-my-number
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open `http://localhost:3000` in your browser to view the game.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👏 Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+HTML & CSS by Jonas Schmedtmann: This project was built using templates and designs provided by [Jonas Schmedtmann](https://github.com/jonasschmedtmann)
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you'd like to contribute to the development of this project, feel free to fork the repository and submit a pull request. Contributions are always welcome!
