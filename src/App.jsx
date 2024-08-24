@@ -16,6 +16,8 @@ export default function App() {
   }, []);
 
   function handleCheckGuess(number) {
+    if (score === 0 || showSecretNum !== "?") return;
+
     if (number === secretNumber) {
       setShowSecretNum(secretNumber);
       setMessage("🎉 Correct number!");
