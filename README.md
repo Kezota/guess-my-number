@@ -1,4 +1,4 @@
-# Guess My Number Game 🎮
+# Guess My Number Game 🔢
 
 Welcome to the **Guess My Number** game! This is a simple web-based game where you try to guess a randomly generated number within a certain range. It's built using [React JS](https://create-react-app.dev/) and hosted on [Vercel](https://vercel.com/).
 
